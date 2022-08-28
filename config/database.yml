@@ -14,7 +14,7 @@ default: &default
 
 development:
   <<: *default
-  database: flatiron_mod3_development
+  database: quotes_development
   # database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
@@ -23,10 +23,10 @@ development:
 test:
   <<: *default
   # database: db/test.sqlite3
-  database: flatiron_mod3_test
+  database: quotes_test
 
 production:
   <<: *default
   # database: db/production.sqlite3
-  database: flatiron_mod3_production
+  database: quotes_production
 
