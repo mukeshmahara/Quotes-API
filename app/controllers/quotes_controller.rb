@@ -17,7 +17,7 @@ class QuotesController < ApplicationController
     private
     def read_csv_file
         require "csv"
-        extracted_data   = CSV.table('/home/mukesh/Desktop/Projects/Houzzz/quotes-api/db/sample/quotes.csv')
+        extracted_data   = CSV.table('db/sample/quotes.csv')
         transformed_data = extracted_data.map { |row| row.to_hash }
         # JSON.pretty_generate(transformed_data)
     end
