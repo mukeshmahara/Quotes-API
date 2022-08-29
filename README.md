@@ -39,4 +39,4 @@ rails s
 
 [get json as response](https://suggest-quotes.herokuapp.com/quotes.json)
 
-[get json xml response](https://suggest-quotes.herokuapp.com/quotes.xml
+[get json xml response](https://suggest-quotes.herokuapp.com/quotes.xml)
