@@ -1,24 +1,34 @@
-# README
+## Install
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Clone the repository
 
-Things you may want to cover:
+```shell
+git clone https://github.com/mukeshmahara/Quotes-API.git
+cd Quotes-API
+```
+### Check your Ruby version
 
-* Ruby version
+```shell
+ruby -v
+```
 
-* System dependencies
+The ouput should start with something like `ruby 3.1.2`
+If not, install the right ruby version using rvm (it could take a while):
 
-* Configuration
+rvm install ruby-3.1.2
 
-* Database creation
 
-* Database initialization
+### Install dependencies
 
-* How to run the test suite
+Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
 
-* Services (job queues, cache servers, search engines, etc.)
+```shell
+bundle && yarn
+```
 
-* Deployment instructions
+## Serve
 
-* ...
+```shell
+rails s
+```
+
