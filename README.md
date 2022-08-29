@@ -33,7 +33,7 @@ bundle && yarn
 rails s
 ```
 
-##Demo
+## Demo
 
 [get HTML web page  as response](https://suggest-quotes.herokuapp.com/quotes)
 
