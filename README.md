@@ -33,3 +33,7 @@ bundle && yarn
 rails s
 ```
 
+##Demo
+[get HTML web page  as response](https://suggest-quotes.herokuapp.com/quotes)
+[get json as response](https://suggest-quotes.herokuapp.com/quotes.json)
+[get json xml response](https://suggest-quotes.herokuapp.com/quotes.xml
