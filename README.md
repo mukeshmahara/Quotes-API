@@ -15,8 +15,9 @@ ruby -v
 The ouput should start with something like `ruby 3.1.2`
 If not, install the right ruby version using rvm (it could take a while):
 
+```shell
 rvm install ruby-3.1.2
-
+```
 
 ### Install dependencies
 
